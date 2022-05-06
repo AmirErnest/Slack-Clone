@@ -20,6 +20,7 @@ function ChatInput({ sendMessage }) {
         e.preventDefault();
         if(!input) return;
         sendMessage(input)
+        setInput("")
     }
 
     /* close emoji window when clicking outside the emoji window*/
